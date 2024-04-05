@@ -1,0 +1,72 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  /* Media queries for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+    
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  input, select, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: blue; /* Change button background color to blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue; /* Darken button color on hover */
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  /* Media queries for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
